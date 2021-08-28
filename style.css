@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Britannic-bold";
-    src: url("./fonts/britannic-bold.ttf") format("truetype");
+    src: url("./assets/fonts/britannic-bold.ttf") format("truetype");
 }
 
 *,
@@ -38,6 +38,9 @@ body {
     box-shadow: 4px 4px 40px 5px rgba(17, 22, 44, 0.20);
     overflow: hidden;
     background-color: #738396;
+    display: grid;
+    grid-template-rows: 50px 145px repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr) repeat(3, 80px);
 }
 
 .calc__header {
@@ -63,11 +66,12 @@ body {
 
 .calc__btn-number {
     background-color: #5b6a7c;
+    color: #d4e5f6;
 }
 
 .calc__btn-operation {
     background-color: #374352;
-
+    color: #d4e5f6;
 }
 
 .calc__btn-operation.minus img {
@@ -83,6 +87,7 @@ body {
 
 .calc__btn-operation-add {
     background-color: #343a41;
+    color: #d4e5f6;
 }
 
 .calc__btn-operation-add.radical img {
@@ -90,6 +95,7 @@ body {
 }
 .calc__btn-equal-sign {
     background: linear-gradient(-30deg, #fe2c75, #fca82c);
+    color: #d4e5f6;
 }
 
 .calc__btn-operation--red-text {
