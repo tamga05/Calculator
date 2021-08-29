@@ -45,6 +45,7 @@ body {
 
 .calc__header {
     background-color: #374352;
+    grid-column: 1/8;
 }
 
 .calc__control {
@@ -58,6 +59,7 @@ body {
 .calc__display {
     background-color: #515c69;
     font-size: 34px;
+    grid-column: 1/8;
 }
 
 .calc__buttons {
