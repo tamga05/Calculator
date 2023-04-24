@@ -56,6 +56,11 @@ body {
     width: 10px;
 }
 
+.calc__control:hover {
+    background: #fca82c;
+    cursor: pointer;
+}
+
 .calc__display {
     height: 145px;
     background-color: #515c69;
@@ -71,7 +76,7 @@ body {
     font-weight: normal;
     opacity: 0.3;
     padding: 0 50px 5px;
-    letter-spacing: 2.5px;
+    letter-spacing: 3px;
 }
 
 .calc__display-result {
@@ -143,6 +148,6 @@ body {
 }
 
 .calc__btn-number:hover, .calc__btn-operation:hover, .calc__btn-operation-add:hover, .calc__btn-equal-sign:hover, .calc__btn-operation--red-text:hover {
-    background-color: #fca82c;
+    background: #fca82c;
 }
 
