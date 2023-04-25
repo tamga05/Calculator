@@ -52,13 +52,17 @@ body {
     width: 85px;
 }
 
+.calc__control:hover {
+    background: #fca82c;
+    cursor: pointer;
+}
+
 .calc__control img {
     width: 10px;
 }
 
-.calc__control:hover {
-    background: #fca82c;
-    cursor: pointer;
+.calc__control--close:hover {
+    background-color: red;
 }
 
 .calc__display {
@@ -147,7 +151,13 @@ body {
     cursor: pointer;
 }
 
+.calc__btn-number:hover, .calc__btn-operation:hover, .calc__btn-operation-add:hover, .calc__btn-equal-sign:hover, .calc__btn-operation--red-text:hover {
+    opacity: 0.7;
+}
+
 .calc__btn-number:active, .calc__btn-operation:active, .calc__btn-operation-add:active, .calc__btn-equal-sign:active, .calc__btn-operation--red-text:active {
     background: #fca82c;
+    opacity: 1;
 }
+
 
