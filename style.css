@@ -147,7 +147,7 @@ body {
     cursor: pointer;
 }
 
-.calc__btn-number:hover, .calc__btn-operation:hover, .calc__btn-operation-add:hover, .calc__btn-equal-sign:hover, .calc__btn-operation--red-text:hover {
+.calc__btn-number:active, .calc__btn-operation:active, .calc__btn-operation-add:active, .calc__btn-equal-sign:active, .calc__btn-operation--red-text:active {
     background: #fca82c;
 }
 
